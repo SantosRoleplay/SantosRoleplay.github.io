@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Santos Roleplay - Documentation</title>
 </head>
     <body>
-        Hello there!
+        <div class="sideBar">
+            <div class="title"><u>Santos - Docs</u></div>
+            <div style="height: 10px;"></div>
+            <div class="dropdown">
+                <button class="dropbtn" id="clientside" onclick="showClientSided()">Client Sided</button>
+                <button class="dropbtn" id="clientside" onclick="showServerSided()">Server Sided</button>
+            </div>
+            <div class="credits">made by smolf</div>
+        </div>
+        <div id="clientSidePages" class="docsPagesContainer">
+            <div id="clientSided" class="docselement">
+                <div class="title"><u>Client Sided</u></div>
+                <div id="clientFeatureContainer" class="featureContainer">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="serverSidePages" class="docsPagesContainer">
+            <div id="serverSided" class="docselement">
+                <div class="title"><u>Server Sided</u></div>
+                <div id="serverFeatureContainer" class="featureContainer">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="featurePageContainer" class="featurePageContainer">
+            <div id="featurePage" class="featurePage">
+                <div id="featurePageTitle" class="title"><u>Feature</u></div>
+                <div id="descTitle" class="title" style="font-size: 20px; top: 5px;">Beskrivelse</div>
+                <div id="featurePageDesc" class="notTitle">Meget hjælpsomt</div>
+                <div id="exampleTitle" class="title" style="font-size: 20px; top: 5px;">Eksempel</div>
+                <div id="featurePageExample" class="notTitle">45</div>
+                <div id="codeTitle" class="title" style="font-size: 20px; top: 5px;">Kode</div>
+                <div id="featurePageCode" class="code">4545454545454545454545</div>
+            </div>
+        </div>
     </body>
+    <script src="script.js"></script>
 </html>

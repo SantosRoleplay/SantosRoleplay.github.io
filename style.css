@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+body {
+    background-color: rgb(41, 43, 58);
+    padding: 0;
+    margin: 0;
+}
+
+.sideBar {
+    background-color: rgb(54, 57, 78);
+    height: 100%;
+    width: 230px;
+    position: fixed;
+}.sideBar .title {
+    color: white;
+    font-size: 32px;
+    font-family: 'SF Pro Display Bold';
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(54, 57, 78);
+} .sideBar .credits {
+    bottom: 0px;
+    left: 3px;
+    position: fixed;
+    color: white;
+    font-size: 15px;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    opacity: 5%;
+}
+
+.sideBar .dropdown .dropbtn {
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgb(54, 57, 78);
+    border-radius: 5px;
+    margin-left: 5px;
+}.sideBar .dropdown .dropbtn:hover {
+    background-color: rgba(0, 0, 0, 0.281);
+}.sideBar .dropdown .dropbtn:active {
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.docsPagesContainer {
+    width: 192px;
+    height: 100%;
+    position: fixed;
+    left: 230px;
+    top: 0;
+    background-color: rgb(49, 51, 68);
+} .docsPagesContainer .docselement .title {
+    color: white;
+    font-size: 27px;
+    font-family: 'SF Pro Display Bold';
+    font-weight: 300;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(54, 57, 78);
+} .docsPagesContainer .docselement .featureContainer {
+    color: white;
+    font-size: 23px;
+    font-family: 'SF Pro Display';
+    margin-top: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(54, 57, 78);
+}  
+.desc {
+    display: none;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.docsPagesContainer .docselement .feature:hover .desc {
+    display: block;
+}
+
+.featurePage {
+    left: 422px;
+    top: 113.5px;
+    position: fixed;
+    width: 800px;
+    height: 700px;
+    background-color: rgb(54, 57, 78);
+    border-radius: 2px 10px 10px 2px;
+}
+.featurePage .title {
+    color: white;
+    font-size: 32px;
+    font-family: 'SF Pro Display Bold';
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+.featurePage .notTitle {
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+    font-family: 'SF Pro Display';
+    font-weight: 150;
+    text-align: left;
+    margin-left: 10px;
+}
+.featurePage .code {
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+    /* adding a font that makes it look like code */
+    font-family: monospace;
+    font-weight: 150;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(47, 49, 54);
+    border-radius: 5px;
+    border: 2px solid rgb(32, 34, 37);
+    width: 700px;
+    max-width: 700px;
+    padding: 3px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

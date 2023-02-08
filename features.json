@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Feature1.",
+        "type": "client",
+        "usage": "/feature1",
+        "description": "This is a feature 1.",
+        "example": "/feature1"
+    },
+    {
+        "name": "KaramelNPC.",
+        "type": "server",
+        "usage": "/server",
+        "description": "Karamel er en NPC.",
+        "example": "/NPCAdd KaramelNPC"
+    }
+]
